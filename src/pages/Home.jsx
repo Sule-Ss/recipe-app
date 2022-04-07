@@ -61,6 +61,7 @@ function Home() {
           <option value="lunch">Lunch</option>
           <option value="snack">Snack</option>
           <option value="teatime">Teatime</option>
+          <option value="dinner">Dinner</option>
         </select>
       </form>
       {
