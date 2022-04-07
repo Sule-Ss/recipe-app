@@ -13,7 +13,7 @@ function About() {
         <h2>Hi, I'am Şule ! </h2>
         <h3>I’m currently learning Full-Stack Development Languages.</h3>
         <h4>
-          I know JS, ReactJS, Django, NodeJS, MongoDB,SQL, Python, AWS Services...
+          I know JS, ReactJS, Django, NodeJS, MongoDB, SQL, Python, AWS Services...
         </h4>
       </div>
     </div>

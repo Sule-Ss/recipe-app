@@ -1,9 +1,6 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import hamburgerMenu from "../assets/menu.png";
+import { NavLink } from "react-router-dom";
 function Navbar() {
-  const hamburgerOpen = true;
-  
   return (
     <div className="navbar">
       {/* <img src={hamburgerMenu} alt="" /> */}
@@ -13,7 +10,7 @@ function Navbar() {
       <a href="https://github.com/Sule-Ss" target="_blank">
         GITHUB
       </a>
-      <NavLink to="/login">LOG IN</NavLink>
+      <NavLink to="/login">LOGOUT</NavLink>
     </div>
   );
 }

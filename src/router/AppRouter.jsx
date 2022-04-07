@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import About from "../pages/About";
+import Details from "../pages/Details";
 
 function AppRouter() {
   return (
@@ -11,9 +12,11 @@ function AppRouter() {
       <Router>
       <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/details" element={<Details />} />
         </Routes>
       </Router>
     </div>

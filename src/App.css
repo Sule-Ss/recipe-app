@@ -40,7 +40,7 @@ body {
   align-items: center;
 }
 
-  
+
 
 /* --- HOME ---- */
 
@@ -188,8 +188,8 @@ body {
   font-size: 1rem;
   background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%);
   background-color: #190A05;
-   margin: 10px;
-  padding: 0.5rem 1rem; 
+  margin: 10px;
+  padding: 0.5rem 1rem;
   width: 10rem;
   height: 3rem;
   text-align: center;
@@ -208,4 +208,112 @@ body {
   text-decoration: none;
   background-color: #305050;
   cursor: pointer;
+}
+
+/* --- MEAL LIST ---- */
+
+.mealSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.mealBox {
+  border: 1px solid black;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 18px #3b2004;
+  color: #3b2004;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.mealSection img {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 18px #be6f1a;
+  transition: 0.5s;
+}
+
+.mealSection img:hover{
+  height: 14rem;
+  width: 14rem;
+}
+
+.detailsButton {
+  background-image: linear-gradient(to right, #EF3B36 0%, #FFFFFF 51%, #EF3B36 100%);
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border-color: pink;
+  cursor: pointer;
+}
+
+.detailsButton:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1.2rem;
+
+}
+
+/* --- DETAILS PAGE ------ */
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.detailsContainer h1 {
+  background-color: #e3bf99;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.detailsContainer .span2 {
+  font-family: 'Rubik Moonrocks', cursive;
+  word-spacing: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.detailsContainer .span1 {
+  word-spacing: 1rem;
+  font-variant: small-caps;
+  font-family: 'Oswald', sans-serif;
+}
+
+.detailsContainer nav {
+  display: flex;
+  background-color: #eabc8a;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: #502f0b;
+  font-weight: bold;
+  box-shadow: 15px 20px 28px #361f06;
+}
+
+.detailsContainer img {
+  margin-right: 5rem;
+  width: 15rem;
+  border-radius: 1rem;
 }
